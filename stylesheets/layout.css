@@ -1,0 +1,239 @@
+/*
+* Skeleton V1.2
+* Copyright 2011, Dave Gamache
+* www.getskeleton.com
+* Free to use under the MIT license.
+* http://www.opensource.org/licenses/mit-license.php
+* 6/20/2012
+*/
+
+/* Table of Content
+==================================================
+	#Site Styles
+	#Page Styles
+	#Media Queries
+	#Font-Face */
+
+/* #Site Styles
+================================================== */
+.container {
+    margin-top: 50px;
+}
+
+h1.fahrner {
+  width: 90px; 
+  height: 67px;
+  background: url('../images/logo_sprite.png');
+  background-position: -6px 72px;
+  margin-left: -10px;
+}
+h1.fahrner span {
+  display: none;
+}
+
+h1.fahrner a:hover {
+	background-position: -6px -11px;
+}
+ 
+#nav {
+    margin: 25px 0 0 0;
+    font-family: "tstar_mono_roundbold";
+}
+ 
+#nav ul li {
+    display: inline;
+    margin: 0 20px 0 10px;
+    margin-bottom: 130px;
+}
+ 
+#nav a {
+    text-decoration: none;
+}
+ 
+#nav a:hover {
+    text-decoration: line-through;
+}
+
+#nav a:active {
+    text-decoration: line-through;
+}
+
+/* #Page Styles
+================================================== */
+
+#textbox {
+	margin: 30px 0px;
+	padding: 80px;
+	border: 20px #ffff00 solid;
+	background-color: #e6e7e8;
+	text-align: center;
+}
+
+
+.people {
+	border: 20px #ffff00 solid;
+	position: relative;
+	}
+
+.people h3 {
+   position: absolute; 
+   top: 269px; 
+   left: -20px; 
+   width: auto; 
+   border-top: 20px #ffff00 solid;
+   border-right: 20px #ffff00 solid;
+   background-color: #e6e7e8;
+   padding: 10px 10px 10px 0px;
+}
+
+.peopletext {
+
+	margin: 30px 0;
+}
+	
+
+.peopleimage {
+    width: auto;
+    height: auto;
+    display: inline-block;
+    overflow: hidden;
+    background-color: #e6e7e8;
+}
+.peopleimage img {
+    width: 100%;
+    height: 100%;
+}
+
+.the_rest {
+	border: 20px #ffff00 solid;
+	background-color: #e6e7e8;
+	margin: 30px 0;
+}
+
+.the_rest img{
+    width: 100%;
+    height: 100%;
+}	
+
+.the_rest h3 { 
+   position: absolute; 
+   top: 1535px; 
+   left: 10px; 
+   width: auto; 
+   border-top: 20px #ffff00 solid;
+   border-right: 20px #ffff00 solid;
+   background-color: #e6e7e8;
+   padding: 10px 10px 10px 0px;
+}
+
+
+/* #Projects Styles
+================================================== */
+.box {
+	width: 100%;
+	height: 300px;
+	background-color: #ffff00;
+	margin-top: 20px;
+
+}
+
+.box hover {
+	background-color: rgba(255 255 0 .4);
+}
+
+.one-third column feature {
+	margin-top: 20px;
+}
+
+/*BLUR*/
+.blur img {
+  -webkit-transition: all 1s ease;
+     -moz-transition: all 1s ease;
+       -o-transition: all 1s ease;
+      -ms-transition: all 1s ease;
+          transition: all 1s ease;
+}
+ 
+.blur img:hover {
+  -webkit-filter: blur(5px);
+}
+
+
+/* #Media Queries
+================================================== */
+
+	/* Smaller than standard 960 (devices and browsers) */
+	@media only screen and (max-width: 959px) {}
+
+	/* Tablet Portrait size to standard 960 (devices and browsers) */
+	@media only screen and (min-width: 768px) and (max-width: 959px) {}
+
+	/* All Mobile Sizes (devices and browser) */
+	@media only screen and (max-width: 767px) {}
+
+	/* Mobile Landscape Size to Tablet Portrait (devices and browsers) */
+	@media only screen and (min-width: 480px) and (max-width: 767px) {}
+
+	/* Mobile Portrait Size to Mobile Landscape Size (devices and browsers) */
+	@media only screen and (max-width: 479px) {}
+
+
+/* #Font-Face
+================================================== */
+/* 	This is the proper syntax for an @font-face file
+		Just create a "fonts" folder at the root,
+		copy your FontName into code below and remove
+		comment brackets */
+
+/*	@font-face {
+	    font-family: 'FontName';
+	    src: url('../fonts/FontName.eot');
+	    src: url('../fonts/FontName.eot?iefix') format('eot'),
+	         url('../fonts/FontName.woff') format('woff'),
+	         url('../fonts/FontName.ttf') format('truetype'),
+	         url('../fonts/FontName.svg#webfontZam02nTh') format('svg');
+	    font-weight: normal;
+	    font-style: normal; }
+*/
+
+@font-face {
+    font-family: 'tstar_mono_roundregular';
+    src: url('../fonts/tsatrmonoroundregular_copy-webfont.eot');
+    src: url('../fonts/tsatrmonoroundregular_copy-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/tsatrmonoroundregular_copy-webfont.woff') format('woff'),
+         url('../fonts/tsatrmonoroundregular_copy-webfont.ttf') format('truetype'),
+         url('../fonts/tsatrmonoroundregular_copy-webfont.svg#tstar_mono_roundregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+
+
+@font-face {
+    font-family: 'sofia_problack';
+    src: url('../fonts/mostardesign_-_sofia_pro_black-webfont.eot');
+    src: url('../fonts/mostardesign_-_sofia_pro_black-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/mostardesign_-_sofia_pro_black-webfont.woff') format('woff'),
+         url('../fonts/mostardesign_-_sofia_pro_black-webfont.ttf') format('truetype'),
+         url('../fonts/mostardesign_-_sofia_pro_black-webfont.svg#sofia_problack') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+
+
+@font-face {
+    font-family: 'tstar_mono_roundbold';
+    src: url('../fonts/tstarmonoroundbold_copy-webfont.eot');
+    src: url('../fonts/tstarmonoroundbold_copy-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/tstarmonoroundbold_copy-webfont.woff') format('woff'),
+         url('../fonts/tstarmonoroundbold_copy-webfont.ttf') format('truetype'),
+         url('../fonts/tstarmonoroundbold_copy-webfont.svg#tstar_mono_roundbold') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
